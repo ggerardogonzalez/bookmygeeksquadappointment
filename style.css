@@ -1,0 +1,151 @@
+/* ----------------- General Body Styling ----------------- */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #87ceeb; /* Sky Blue background */
+}
+
+/* ----------------- TOP HEADING BAR ----------------- */
+.gs-heading {
+  width: 100%;
+  background: #2f9e44;
+  color: #ffffff;
+  font-size: 26px;
+  font-weight: bold;
+  text-align: center;
+  padding: 12px 10px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+}
+
+/* ----------------- Container for Pages ----------------- */
+.container {
+  background-color: #fff; /* white card */
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+/* ----------------- Headings ----------------- */
+h1 {
+  margin-bottom: 10px; /* reduce bottom space to fit TFN nicely */
+  color: #333;
+}
+
+/* ----------------- Buttons ----------------- */
+button {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+button.selected {
+  background-color: #007bff;
+  color: white;
+}
+
+#nextBtn {
+  background-color: #28a745;
+  color: white;
+}
+
+#nextBtn:hover {
+  background-color: #218838;
+}
+
+/* ----------------- Responsive ----------------- */
+@media screen and (max-width: 480px) {
+  .container {
+    margin: 30px 15px;
+    padding: 20px;
+  }
+  button {
+    font-size: 14px;
+    padding: 10px;
+  }
+}
+
+/* ----------------- SEO Section Styling ----------------- */
+.seo-section {
+  width: 100%;
+  background: linear-gradient(180deg, #0b2b53, #0f3a6d);
+  padding: 60px 20px;
+}
+
+.seo-inner {
+  max-width: 900px;
+  margin: auto;
+  color: #cfe6ff;
+  line-height: 1.7;
+  text-align: left;      
+  padding-left: 40px;    
+  padding-right: 20px;   
+}
+
+.seo-inner h2 {
+  color: #ffffff;
+  margin-top: 25px;
+}
+
+.seo-inner ul {
+  padding-left: 20px;
+}
+
+.seo-inner li {
+  margin-bottom: 6px;
+}
+
+/* ----------------- SEO Section Responsive ----------------- */
+@media screen and (max-width: 768px) {
+  .seo-inner {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+/* ----------------- TFN Phone Link Styling ----------------- */
+.tfn-container {
+  margin-top: 10px;        /* small space below heading */
+  margin-bottom: 20px;     /* space before form fields */
+  text-align: left;         /* aligns nicely under heading */
+}
+
+.tfn-container label {
+  display: block;
+  margin-bottom: 4px;
+  font-weight: bold;
+  color: #333;
+}
+
+.tfn-container a {
+  display: inline-block;
+  font-size: 16px;
+  color: #007bff;  /* blue link color */
+  text-decoration: none;
+  padding: 4px 0;
+}
+
+.tfn-container a:hover {
+  text-decoration: underline;
+}
+
+/* ----------------- Responsive TFN ----------------- */
+@media screen and (max-width: 480px) {
+  .tfn-container a {
+    font-size: 14px;
+  }
+}
