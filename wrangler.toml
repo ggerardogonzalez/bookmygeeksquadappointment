@@ -1,7 +1,8 @@
 name = "bookgeeksquadappointment"
-account_id = "4f0ac5d1b888f98030d3fb52faae9eb826932"
+account_id = "8b5692049893f02089741bb2d2b68e85"
 compatibility_date = "2026-01-07"
 
 # Tell Wrangler where the HTML/CSS/JS files are
 [assets]
 directory = "./"    # <- your project folder where index.html lives
+
